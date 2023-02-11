@@ -10,6 +10,8 @@ import UIKit
 class DetailsViewController: UIViewController {
     var text: String?
     
+    var storage: BuildingDictStorage? = nil
+    
     @IBOutlet weak var titleLabel: UILabel!
     
     let storageKey = "MyList"
